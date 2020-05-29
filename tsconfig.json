@@ -1,15 +1,25 @@
 {
-    "compilerOptions": {
-      "lib": ["es6", "dom", "esnext.asynciterable"],
-      "module": "commonjs",
-      "noImplicitReturns": false,
-      "outDir": "dist",
-      "sourceMap": true,
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
-      "target": "es2017"
-    },
-    "compileOnSave": true,
-    "include": ["src"]
-  }
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "module": "commonjs",
+    "noImplicitReturns": false,
+    "outDir": "dist",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017"
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "app",
+    "client"
+  ]
+}
