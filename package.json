@@ -21,7 +21,7 @@
         "@babel/polyfill": "^7.2.5",
         "@babel/preset-env": "^7.3.4",
         "await-to-js": "^1.0.1",
-        "apollo-server-express": "^2.7.0",
+        "apollo-server-express": "^2.14.2",
         "bcrypt": "^3.0.7",
         "babel-loader": "^8.0.5",
         "body-parser": "^1.18.3",
